@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "src/*",
+        "index.ts"
+    ],
+    "exit": "js,json,ts",
+    "ignore":[
+        ".git",
+        "node_modules",
+        "dist/",
+        "coverage/"
+    ]
+}
