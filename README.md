@@ -1,38 +1,33 @@
-# Token-Based Authentication (JWT) with Node, React, TypeScript
-
-This project implements Token-Based Authentication using JSON Web Tokens (JWT) with a stack comprising Node.js, React, and TypeScript.
+This project implements Token-Based Authentication (JWT) using Node.js for the backend and React with TypeScript for the frontend.
 
 ## Overview
 
-Token-Based Authentication is a secure method for authenticating users by issuing a digitally signed token. This project demonstrates the implementation of JWT-based authentication using Node.js on the backend and React with TypeScript on the frontend.
+Token-Based Authentication is a secure way to authenticate users by issuing a unique token upon successful login. This token is then used to access protected routes or resources.
 
-## Features
+### Features
 
-- **JWT Authentication**: Secure user authentication using JSON Web Tokens.
-- **Node.js Backend**: Provides the server-side implementation for user authentication.
-- **React Frontend**: Utilizes TypeScript for building client-side authentication.
-
-## Technologies Used
-
-- **Node.js**: Backend runtime environment for JavaScript.
-- **Express.js**: Web framework for Node.js used to build the RESTful API.
-- **JSON Web Tokens (JWT)**: Used for creating secure tokens for authentication.
-- **React**: JavaScript library for building user interfaces.
-- **TypeScript**: Superset of JavaScript providing static typing for robustness.
-- **bcrypt**: Library for hashing passwords securely.
-- **axios**: Promise-based HTTP client for making requests from React.
+- **JWT Implementation**: Secure user authentication using JSON Web Tokens.
+- **Node.js Backend**: Backend server built using Node.js for handling authentication and authorization.
+- **React Frontend**: User interface developed with React and TypeScript for seamless interaction.
 
 ## Getting Started
 
-1. **Clone the Repository**: Clone this repository to your local machine.
-2. **Installation**: Install dependencies in both the Node.js backend and React frontend using `npm install`.
-3. **Configuration**:
-   - Set up environment variables for sensitive data like secret keys.
-   - Configure database connections if applicable.
-4. **Usage**:
-   - Start the Node.js backend server using `npm start`.
-   - Run the React frontend with `npm start` and access it in your browser.
-   
-## Implementation Details
+To run this project locally, follow these steps:
 
-The Node.js backend provides routes and controllers for user authentication, token generation, and validation. It integrates JWT for creating and verifying tokens.
+### Prerequisites
+
+- Node.js installed on your machine.
+
+### Backend Setup
+
+1. Navigate to the `backend` directory.
+2. Install dependencies using `npm install`.
+3. Set up environment variables for database connection, JWT secret, etc.
+4. Start the server using `npm start`.
+
+### Frontend Setup
+
+1. Navigate to the `frontend` directory.
+2. Install dependencies using `npm install`.
+3. Configure backend API URL in the environment file.
+4. Start the frontend using `npm start`.
